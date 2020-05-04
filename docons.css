@@ -1,0 +1,485 @@
+.docon {
+    font-family: docons;
+    font-size: inherit;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    direction: ltr;
+    line-height: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+@font-face {
+    font-family: docons;
+    src: url(docons.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+.docon-people:before {
+    content: "\E716"
+}
+
+.docon-link:before {
+    content: "\E71B"
+}
+
+.docon-filter:before {
+    content: "\E71C"
+}
+
+.docon-search:before {
+    content: "\E721"
+}
+
+.docon-share:before {
+    content: "\E72D"
+}
+
+.docon-check-mark:before {
+    content: "\E73E"
+}
+
+.docon-delete:before {
+    content: "\E74D"
+}
+
+.docon-play:before {
+    content: "\E768"
+}
+
+.docon-calendar:before {
+    content: "\E787"
+}
+
+.docon-enhance-pop:before {
+    content: "\E78F"
+}
+
+.docon-flag:before {
+    content: "\E7C1"
+}
+
+.docon-location-circle:before {
+    content: "\E80E"
+}
+
+.docon-location:before {
+    content: "\E81D"
+}
+
+.docon-download:before {
+    content: "\E896"
+}
+
+.docon-upload:before {
+    content: "\E898"
+}
+
+.docon-dislike:before {
+    content: "\E8E0"
+}
+
+.docon-like:before {
+    content: "\E8E1"
+}
+
+.docon-world:before {
+    content: "\E909"
+}
+
+.docon-clock:before {
+    content: "\E917"
+}
+
+.docon-reply:before {
+    content: "\E97A"
+}
+
+.docon-clear-night:before {
+    content: "\E9C2"
+}
+
+.docon-lightbulb:before {
+    content: "\EA80"
+}
+
+.docon-developer-tools:before {
+    content: "\EC7A"
+}
+
+.docon-web-components:before {
+    content: "\EC8B"
+}
+
+.docon-feedback:before {
+    content: "\ED15"
+}
+
+.docon-single-bookmark:before {
+    content: "\EDFF"
+}
+
+.docon-single-bookmark-solid:before {
+    content: "\EE00"
+}
+
+.docon-text-document:before {
+    content: "\F029"
+}
+
+.docon-arrow-up-right:before {
+    content: "\F069"
+}
+
+.docon-arrow-up8:before {
+    content: "\F0AD"
+}
+
+.docon-arrow-down8:before {
+    content: "\F0AE"
+}
+
+.docon-deploy:before {
+    content: "\F29D"
+}
+
+.docon-more-vertical:before {
+    content: "\F2BC"
+}
+
+.docon-circle-addition:before {
+    content: "\F2E3"
+}
+
+.docon-circle-addition-solid:before {
+    content: "\F2E4"
+}
+
+.docon-file-code:before {
+    content: "\F30E"
+}
+
+.docon-like-solid:before {
+    content: "\F3BF"
+}
+
+.docon-dislike-solid:before {
+    content: "\F3C0"
+}
+
+.docon-waffle-office365:before {
+    content: "\F4E0"
+}
+
+.docon-dictionary-download:before {
+    content: "\F72F"
+}
+
+.docon-set-history-status:before {
+    content: "\F738"
+}
+
+.docon-reading-settings:before {
+    content: "\F73C"
+}
+
+.docon-filter-settings:before {
+    content: "\F76C"
+}
+
+.docon-inspect:before {
+    content: "\F80A"
+}
+
+.docon-enter-mode:before {
+    content: "\F80B"
+}
+
+.docon-wechat:before {
+    content: "\F80D"
+}
+
+.docon-weibo:before {
+    content: "\F80F"
+}
+
+.docon-brand-linkedin:before {
+    content: "\FF00"
+}
+
+.docon-feed:before {
+    content: "\FF01"
+}
+
+.docon-check:before {
+    content: "\FF02"
+}
+
+.docon-feedback-positive-outline:before {
+    content: "\FF03"
+}
+
+.docon-math-multiply:before {
+    content: "\FF04"
+}
+
+.docon-octicon-smiley:before {
+    content: "\FF06"
+}
+
+.docon-power:before {
+    content: "\FF07"
+}
+
+.docon-terminal:before {
+    content: "\FF08"
+}
+
+.docon-status-info-outline:before {
+    content: "\FF09"
+}
+
+.docon-navigate-refresh:before {
+    content: "\FF0A"
+}
+
+.docon-sharing:before {
+    content: "\FF0B"
+}
+
+.docon-exit-mode:before {
+    content: "\FF0C"
+}
+
+.docon-octicon-issue-closed:before {
+    content: "\FF0D"
+}
+
+.docon-octicon-issue-opened:before {
+    content: "\FF0E"
+}
+
+.docon-edit-outline:before {
+    content: "\FF0F"
+}
+
+.docon-sun:before {
+    content: "\FF10"
+}
+
+.docon-locale-globe:before {
+    content: "\FF11"
+}
+
+.docon-status-warning-outline:before {
+    content: "\FF12"
+}
+
+.docon-status-success-outline:before {
+    content: "\FF13"
+}
+
+.docon-brand-facebook:before {
+    content: "\FF14"
+}
+
+.docon-brand-github:before {
+    content: "\FF16"
+}
+
+.docon-status-error-outline:before {
+    content: "\FF17"
+}
+
+.docon-arrow-up-left:before {
+    content: "\FF18"
+}
+
+.docon-arrow-right:before {
+    content: "\FF19"
+}
+
+.docon-code-lang:before {
+    content: "\FF1B"
+}
+
+.docon-brand-twitter:before {
+    content: "\FF1C"
+}
+
+.docon-edit-copy:before {
+    content: "\FF1D"
+}
+
+.docon-editor-list-bullet:before {
+    content: "\FF1E"
+}
+
+.docon-octicon-plus-small:before {
+    content: "\FF1F"
+}
+
+.docon-arrow-down:before {
+    content: "\FF20"
+}
+
+.docon-arrow-left:before {
+    content: "\FF21"
+}
+
+.docon-status-waiting:before {
+    content: "\FF22"
+}
+
+.docon-comment-lines:before {
+    content: "\FF24"
+}
+
+.docon-comment-outline:before {
+    content: "\FF25"
+}
+
+.docon-mail-message-fill:before {
+    content: "\FF27"
+}
+
+.docon-math-minus:before {
+    content: "\FF28"
+}
+
+.docon-math-plus:before {
+    content: "\FF29"
+}
+
+.docon-math-plus-light:before {
+    content: "\FF2A"
+}
+
+.docon-navigate-external:before {
+    content: "\FF2D"
+}
+
+.docon-play-fill:before {
+    content: "\FF2E"
+}
+
+.docon-menu:before {
+    content: "\FF2F"
+}
+
+.docon-navigate-close:before {
+    content: "\FF30"
+}
+
+.docon-chevron-up-light:before {
+    content: "\FF31"
+}
+
+.docon-chevron-left-light:before {
+    content: "\FF32"
+}
+
+.docon-chevron-down-light:before {
+    content: "\FF33"
+}
+
+.docon-chevron-right-light:before {
+    content: "\FF34"
+}
+
+.docon-status-failure-outline:before {
+    content: "\FF35"
+}
+
+.docon-star:before {
+    content: "\FF36"
+}
+
+.docon-star-half:before {
+    content: "\FF37"
+}
+
+.docon-star-outline:before {
+    content: "\FF38"
+}
+
+.docon-topic-architecture:before {
+    content: "\FF39"
+}
+
+.docon-topic-deploy:before {
+    content: "\FF40"
+}
+
+.docon-topic-download:before {
+    content: "\FF41"
+}
+
+.docon-topic-get-started:before {
+    content: "\FF42"
+}
+
+.docon-topic-how-to-guide:before {
+    content: "\FF43"
+}
+
+.docon-topic-learn:before {
+    content: "\FF44"
+}
+
+.docon-topic-overview:before {
+    content: "\FF45"
+}
+
+.docon-topic-quickstart:before {
+    content: "\FF46"
+}
+
+.docon-topic-tutorial:before {
+    content: "\FF47"
+}
+
+.docon-topic-whats-new:before {
+    content: "\FF48"
+}
+
+.docon-topic-reference:before {
+    content: "\FF49"
+}
+
+.docon-topic-concept:before {
+    content: "\FF50"
+}
+
+.docon-topic-video:before {
+    content: "\FF51"
+}
+
+.docon-telescope:before {
+    content: "\FF52"
+}
+
+.docon-topic-sample:before {
+    content: "\FF53"
+}
+
+.docon-question-circle-solid:before {
+    content: "\FF54"
+}
+
+.docon-book-solid:before {
+    content: "\FF55"
+}
+
+.docon-tag-circle-solid:before {
+    content: "\FF56"
+}
+
+.docon-lightbulb-regular:before {
+    content: "\FF57"
+}
